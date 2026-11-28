@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0 (2026-11-28)
+
+
+### Features
+
+* **github:** настроить OpenCode по комментариям ([#2](https://github.com/Barrierok/ai-for-developers-project-387/issues/2)) ([#3](https://github.com/Barrierok/ai-for-developers-project-387/issues/3)) ([8866c79](https://github.com/Barrierok/ai-for-developers-project-387/commit/8866c793d9922549c23db2b6b24f01549a56bcfe))
+* перенести приложение из frontend-project-386 ([0ecc492](https://github.com/Barrierok/ai-for-developers-project-387/commit/0ecc49290d757dd535936c245317639ffa7c0e04))
+
+
+### Bug Fixes
+
+* **github:** не отменять OpenCode ответным комментарием ([#2](https://github.com/Barrierok/ai-for-developers-project-387/issues/2)) ([#5](https://github.com/Barrierok/ai-for-developers-project-387/issues/5)) ([2a675d6](https://github.com/Barrierok/ai-for-developers-project-387/commit/2a675d6af73539d343c29e613340e29ee2185340))
+
 ## [1.0.1](https://github.com/Barrierok/frontend-project-386/compare/v1.0.0...v1.0.1) (2026-11-20)
 
 
