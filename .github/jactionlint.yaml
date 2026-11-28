@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jdx/jactionlint/v2.6.0/schema/jactionlint-config.json
+profile: default
+
+ignores:
+  - rule: dangerous-triggers
+    file: .github/workflows/opencode.yml
+    reason: >-
+      issue_comment необходим для /oc; запуск разрешён только OWNER, MEMBER и
+      COLLABORATOR, код pull request не проверяется и не выполняется.
+    expires: "2027-02-28"

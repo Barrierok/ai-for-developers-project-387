@@ -7,7 +7,14 @@ const npm = process.platform === "win32" ? "npm.cmd" : "npm";
 ensureTestDatabase();
 
 const env = { ...process.env, TEST_DATABASE_URL: testDatabaseUrl() };
-const steps = ["format:check", "lint", "typecheck", "test:coverage:run", "test:e2e"];
+const steps = [
+  "format:check",
+  "lint:workflows",
+  "lint",
+  "typecheck",
+  "test:coverage:run",
+  "test:e2e",
+];
 
 for (const script of steps) {
   console.warn(`\n▶ npm run ${script}`);
