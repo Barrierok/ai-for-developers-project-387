@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
+    "lint:workflows": "docker run --rm --volume \"${PWD}:/repo:ro\" --workdir /repo ghcr.io/jdx/jactionlint@sha256:323474d5999ac01a4712d99a8c21d245b62f79977a1e9cc8795f321142a087d7",
     "format": "oxfmt",
     "format:check": "oxfmt --check",
     "typecheck": "oxlint --type-aware --type-check",
