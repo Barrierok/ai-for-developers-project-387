@@ -35,4 +35,5 @@ jobs:
           KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
         with:
           model: kimi-code-plan-global/kimi-for-coding
+          mentions: /opencode,/oc
           share: false
